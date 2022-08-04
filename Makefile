@@ -1,7 +1,7 @@
 BUILD_DIR = bin
 SOURCE_DIR = src
 
-COMPILER_OPT = -I durangoLib/inc --cpu 6502
+COMPILER_OPT = -I $(DDK)/inc --cpu 6502
 LINKER_OPT = -C $(DDK)/cfg/durango.cfg -o main.bin  video.o durangoLib/bin/vectors.o
 
 all: make32
