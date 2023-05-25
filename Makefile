@@ -9,8 +9,8 @@ RESCOMP?=$(DDK)/rescomp/rescomp.jar
 
 all: hello_durango.dux
 
-$(BUILD_DIR)/hello_durango.s: $(SOURCE_DIR)/hello_durango.c
-	cc65 $(COMPILER_OPT) -o $(BUILD_DIR)/hello_durango.s $(SOURCE_DIR)/hello_durango.c
+$(BUILD_DIR)/hello_durango.s: $(SOURCE_DIR)/main.c
+	cc65 $(COMPILER_OPT) -o $(BUILD_DIR)/hello_durango.s $(SOURCE_DIR)/main.c
 $(BUILD_DIR)/hello_durango.o: $(BUILD_DIR)/hello_durango.s
 	ca65 $(ASM_OPT) $(BUILD_DIR)/hello_durango.s -o $(BUILD_DIR)/hello_durango.o
 hello_durango.bin: $(BUILD_DIR)/ $(BUILD_DIR)/hello_durango.o

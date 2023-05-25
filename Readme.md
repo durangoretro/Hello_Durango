@@ -1,4 +1,4 @@
-# Durango C Example
+# Durango C Example (Template)
 
 This is template of use for DurangoLib Initial Project with a C Example.
 
@@ -23,3 +23,5 @@ make # use make make16 to generate a 16K ROM.
 ```bash
 docker run --rm -v $PWD:/src/durango zerasul/durangodevkit:latest
 ```
+
+You can use [Perdita](https://github.com/zuiko21/minimOS/tree/master/emulation) Emulator to see your ROM running.
