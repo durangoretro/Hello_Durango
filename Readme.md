@@ -25,3 +25,5 @@ docker run --rm -v $PWD:/src/durango zerasul/durangodevkit:latest
 ```
 
 You can use [Perdita](https://github.com/zuiko21/minimOS/tree/master/emulation) Emulator to see your ROM running.
+
+**NOTE**: You can use Github CodeSpaces to generate a Durango ROM using Durango Docker image
