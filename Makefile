@@ -3,7 +3,7 @@ SOURCE_DIR=src
 DDK?=../../
 COMPILER_OPT= -I $(DDK)/inc --cpu 6502
 ASM_OPT = -t none
-LINKER_OPT= -C $(DDK)/cfg/durango16k.cfg
+LINKER_OPT= -C $(DDK)/cfg/durango.cfg
 LINKER_LIBS=  $(DDK)/bin/durango.lib
 RESCOMP?=$(DDK)/rescomp/rescomp.jar
 
