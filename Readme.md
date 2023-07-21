@@ -6,8 +6,8 @@ With this example you can generate a new ROM for the Durango Computer using the 
 
 To generate a new Rom You will need one of:
 
-1. CC65 suite, and Durango Lib Installed in your System (You need Durango Lib 0.1.0 or later).
-2. [Durango Dev Kit Docker Image](https://hub.docker.com/r/zerasul/durangodevkit/tags) (You need Tag 1.0.0 or later).
+1. CC65 suite, and Durango Lib Installed in your System (You need Durango Lib 0.1.1 or later).
+2. [Durango Dev Kit Docker Image](https://hub.docker.com/r/zerasul/durangodevkit/tags) (You need Tag 1.0.1 or later).
 
 After install Durango Lib or pull Docker Image you can generate a new ROM.
 
